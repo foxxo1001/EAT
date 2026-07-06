@@ -1,0 +1,57 @@
+# ===================== Android / Gradle =====================
+# Built application artifacts
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.idsig
+
+# Generated build outputs
+bin/
+gen/
+out/
+build/
+release/
+
+# Gradle caches
+.gradle/
+.kotlin/
+
+# Local Gradle distribution used only for offline builds in a sandboxed
+# environment — NOT part of the project. Normal machines should use the
+# standard Gradle wrapper instead.
+gradle-8.5/
+gradle-8.5.zip
+
+# Local machine config (SDK path, etc.)
+local.properties
+
+# Keystores / signing
+*.jks
+*.keystore
+
+# ===================== Scratch / helper scripts (not app source) =====================
+*.py
+build_apk.bat
+
+# ===================== Log / text dumps =====================
+*.txt
+
+# ===================== IDE (Android Studio / IntelliJ) =====================
+.idea/
+*.iml
+*.iml~
+*.ipr
+*.iws
+captures/
+
+# ===================== OS / editor noise =====================
+.DS_Store
+Thumbs.db
+
+# ===================== Agent working memory (not app source) =====================
+.workbuddy/
+.learnings/
+.agents/
+apk_output/

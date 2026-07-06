@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 手绘线条风启动图标前景层 —— 碗 + 筷子 + 蒸汽
+     深碳黑 #2C2C2C 针管笔触感，贝塞尔曲线带微幅波动模拟手绘不完美 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 碗身轮廓 —— 顶部微凹，底部圆弧，手绘波动 -->
+    <path
+        android:strokeColor="#2C2C2C"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 28,54 Q 53,56.5 79,53.5 Q 76,84 54,85 Q 31,84 28,54" />
+
+    <!-- 碗底弧线 —— 收笔阴影 -->
+    <path
+        android:strokeColor="#2C2C2C"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 43,85 Q 54,88 64,85.5" />
+
+    <!-- 筷子 1 —— 斜搭，略带歪斜 -->
+    <path
+        android:strokeColor="#2C2C2C"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 20,63 L 86,33" />
+
+    <!-- 筷子 2 —— 与筷子 1 平行但不完美对齐 -->
+    <path
+        android:strokeColor="#2C2C2C"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 24,57 L 88,29" />
+
+    <!-- 蒸汽 1 —— S 形波浪 -->
+    <path
+        android:strokeColor="#2C2C2C"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 43,42 Q 39,32 45,21" />
+
+    <!-- 蒸汽 2 —— S 形波浪，与蒸汽 1 长短不一 -->
+    <path
+        android:strokeColor="#2C2C2C"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 55,40 Q 59,30 53,19" />
+
+    <!-- 蒸汽 3 —— S 形波浪，错位收笔 -->
+    <path
+        android:strokeColor="#2C2C2C"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 67,43 Q 63,34 69,24" />
+
+</vector>

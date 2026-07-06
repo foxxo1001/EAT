@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.todayeat">
+
+    <!-- ======================================================== -->
+    <!--  网络权限：Unsplash API 图片搜索必需 -->
+    <!-- ======================================================== -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- ======================================================== -->
+    <!--  振动权限：马达触觉反馈必需 -->
+    <!--  Android 8.0+ VIBRATE 为普通权限，声明即可 -->
+    <!-- ======================================================== -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+   <application
+       android:allowBackup="true"
+        android:enableOnBackInvokedCallback="true"
+       android:icon="@mipmap/ic_launcher"
+       android:label="今天吃啥"
+       android:roundIcon="@mipmap/ic_launcher_round"
+       android:supportsRtl="true"
+       android:theme="@style/Theme.TodayEat"
+       android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
