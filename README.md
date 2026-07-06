@@ -19,6 +19,11 @@
 > Spin the glassy dial, let physics-driven springs do the work, and never
 > agonize over lunch again.
 
+> 🤖 **Vibe Coding 声明**：本项目 **100% 由 AI 结对编程（Vibe Coding）完成**。
+> 架构设计、Compose UI、手搓物理弹簧动画、Room 持久化、手势熔断，乃至构建与
+> GitHub 发布，全部由人类用自然语言描述意图、AI 实时生成并迭代代码而成——
+> **不包含任何人工手写的业务代码**。这是一个「说一句话，AI 写代码」的纯粹产物。
+
 ## 📑 目录
 
 - [✨ 特性](#-特性)
